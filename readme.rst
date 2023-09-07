@@ -1,4 +1,4 @@
-Demo Program : sistemdepresi.plafound.my.id
+Demo Program : <http://sistemdepresi.plafound.my.id/>
 
 ###################
 What is CodeIgniter
