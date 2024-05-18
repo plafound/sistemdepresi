@@ -24,7 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $alamat = $_SERVER['HTTP_HOST'];
-$config['base_url'] = "http://localhost:81/sistemdepresi";
+$protokol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$config['base_url'] = "$protokol://localhost/sistemdepresi";
 
 /*
 |--------------------------------------------------------------------------
